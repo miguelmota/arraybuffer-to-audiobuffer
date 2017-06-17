@@ -14,7 +14,7 @@ Pass [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 
 Takes an optional [`AudioContext`](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) as second argument, otherwise it'll create a new `AudioContext`.
 
-Returns promise which resolves to [`AudioBuffer`](https://developer.mozilla.org/en-US/docs/Web/API/AudioBuffer).
+Returns [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) which resolves to [`AudioBuffer`](https://developer.mozilla.org/en-US/docs/Web/API/AudioBuffer).
 
 ```javascript
 const arrayBufferToAudioBuffer = require('arraybuffer-to-audiobuffer')

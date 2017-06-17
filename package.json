@@ -1,6 +1,6 @@
 {
   "name": "arraybuffer-to-audiobuffer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert ArrayBuffer to AudioBuffer",
   "main": "arraybuffer-to-audiobuffer.js",
   "directories": {
