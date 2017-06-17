@@ -12,7 +12,7 @@ npm install arraybuffer-to-audiobuffer
 
 Pass [`ArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer) as first argument.
 
-Takes an optional [`AudioContext`](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) as second argument, otherwise it'll create a new AudioContext.
+Takes an optional [`AudioContext`](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) as second argument, otherwise it'll create a new `AudioContext`.
 
 Returns [`AudioBuffer`](https://developer.mozilla.org/en-US/docs/Web/API/AudioBuffer).
 
