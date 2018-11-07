@@ -25,12 +25,6 @@ arrayBufferToAudioBuffer(arrayBuffer, audioContext)
 })
 ```
 
-# Test
-
-```bash
-npm test
-```
-
 # License
 
 MIT
