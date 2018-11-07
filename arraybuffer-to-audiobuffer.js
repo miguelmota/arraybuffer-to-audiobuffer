@@ -9,8 +9,10 @@
           throw new TypeError('`context` must be an AudioContext')
         }
       } else {
-        context = new (window.AudioContext ||
+        if (typeof window !== 'undefined') {
+          context = new (window.AudioContext ||
           window.webkitAudioContext)
+        }
       }
 
       context.decodeAudioData(arrayBuffer, function(data) {
